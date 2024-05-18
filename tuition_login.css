@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(tutor_form_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    
+    }
+    .navbar{
+        background-color: rgb(58, 143, 218);
+        border-radius:20px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+        } 
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration:none ;
+            color: white;
+            padding-top: 3px;
+        
+        }
+        .navbar li a:hover{
+        color: blue;
+        }
+
+
+.container {max-width: 400px;
+    margin: 50px auto;
+    background-color: #9bbadf;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+    
+   
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 10, 9);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #04599a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #030e03;
+}
+
+a {
+    color: #0a06e9;
+    text-decoration: none;
+}
+footer{
+    background: #87c4ef;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    }

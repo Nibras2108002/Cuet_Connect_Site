@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("course_selection_bg\ \(2\).png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+  color: #3498db;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Centering text within course cards */
+.course-content h3 {
+  margin-top: 75px;
+  text-align: center;
+}
+
+/* Remove underline from card links */
+.course-item a {
+  text-decoration: none;
+}
+
+.course-container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.course-item {
+  display: inline-block;
+  margin: 20px;
+}
+
+.course-content {
+  background-color: rgba(49, 138, 145, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.course-content:hover {
+  background-color: rgb(169, 165, 191);
+}
+
+.course-content,
+.department-content {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+
+.course-content img,
+.department-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.department-container {
+ position:center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.department-content {
+  margin-left: 420px ;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.department-content:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.department-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.department-member {
+  margin-bottom: 20px;
+}
+
+.member-image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.member-image img:hover {
+  transform: scale(1.1);
+}
+
+.member-link {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.member-link:hover {
+  color: #2980b9;
+}
+
+.help-submission {
+  background: linear-gradient(45deg, #2ecc71, #3498db);
+  padding: 50px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+.help-submission h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.help-submission p {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.help-submission form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.help-submission .form-group {
+  margin-bottom: 20px;
+}
+
+.help-submission label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.help-submission select,
+.help-submission input[type="text"],
+.help-submission input[type="email"],
+.help-submission textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.help-submission select,
+.help-submission input[type="text"]:focus,
+.help-submission input[type="email"]:focus,
+.help-submission textarea:focus {
+  border-color: #007bff;
+}
+
+.help-submission textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.help-submission button {
+  background-color: #007bff;
+  color: #c0bfbb;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.help-submission button:hover {
+  background-color: #c8139e;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ecf0f1;
+}
